@@ -214,3 +214,335 @@ index b2b2abc..8ce813c 100644
 C:\Users\Shubhadip\Desktop\crypto>
 -----------------------------------------------------------------------------DAY == 1----------------------------------------------------------------------------------------------------------------------------
 ================================================================================================================================================================================================================
+
+
+============================================================Life cycle of Change/Review Repo History================================================================
+
+Microsoft Windows [Version 10.0.19045.3448]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Shubhadip>cd desktop
+
+C:\Users\Shubhadip\Desktop>cd crypto
+
+C:\Users\Shubhadip\Desktop\crypto>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Shubhadip\Desktop\crypto>giot riff
+'giot' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Shubhadip\Desktop\crypto>git riff
+git: 'riff' is not a git command. See 'git --help'.
+
+The most similar command is
+        diff
+
+C:\Users\Shubhadip\Desktop\crypto>git diff
+diff --git a/README.md b/README.md
+index b2b2abc..8ce813c 100644
+--- a/README.md
++++ b/README.md
+@@ -6,6 +6,10 @@
+ ![Crypto Currency Chart Cryptocurrencies Candle Candlestick with indicators TradingView API RSI Stoch](Images/Chart.png)
+
+ ```
++
++//Shubhadip Paul now compleately div dive into full stack development
++
++
+ <div class="tradingview-widget-container">
+   <div id="tradingview_74048"></div>
+   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BITFINEX-IOTUSD/" rel="noopener" target="_blank"><span class="blue-text">IOTUSD Chart</span></a> by TradingView</div>
+
+C:\Users\Shubhadip\Desktop\crypto> git log
+commit 18ccd989f99e856ce7f4ff4953d94c46cb26497c (HEAD -> master, origin/master, origin/HEAD)
+Author: Alpay Yildirim <alpaypython@gmail.com>
+Date:   Thu Jul 20 10:28:26 2023 +0200
+
+    ➕ Add Bancor (BNT)
+
+commit 7360276883056b650be3b5fb77c45f9110e1f590
+Author: AYIDouble <alpay.yildirim@stud.bbbaden.ch>
+Date:   Thu Jul 20 10:24:01 2023 +0200
+
+    ➕ Add Bancor (BNT)
+
+commit 0e183dbfc177cedd69ceca47b7b4f6c812c4ca0c
+Author: AYIDouble <alpay.yildirim@stud.bbbaden.ch>
+Date:   Thu Jul 20 10:15:06 2023 +0200
+
+    ➕ Add Bancor (BNT)
+
+commit f9fbaf62224c97a25a668eb85d511c80f955c07d
+Author: Alpay Yildirim <alpaypython@gmail.com>
+Date:   Thu May 5 13:01:27 2022 +0200
+
+    🔁 Update README
+
+commit 91230cb58f057611c70465639dba7740a5b129b8
+Author: AYIDouble <alpay.yildirim@stud.bbbaden.ch>
+Date:   Thu May 5 12:58:43 2022 +0200
+
+    🔁 Edit HTML
+
+commit c4e5f4e2c70c232241c1c6f611bdfe91fd38c451
+Author: Alpay Yildirim <alpaypython@gmail.com>
+Date:   Wed Jun 12 20:50:28 2019 +0200
+
+    🔁 Update README
+
+commit d594bafacfe9b32a52992cc1f407d2d3463c5b7b
+Merge: b313073 b0b4278
+Author: Alpay Yildirim <alpaypython@gmail.com>
+Date:   Wed Jun 12 20:47:38 2019 +0200
+
+    Merge pull request #7 from AYIDouble/imgbot
+
+    [ImgBot] Optimize images
+
+commit b0b4278aeb09f45ed433b93e281f4b5007250ab2
+Author: ImgBotApp <ImgBotHelp@gmail.com>
+Date:   Wed Jun 12 18:46:10 2019 +0000
+
+    [ImgBot] Optimize images
+
+    /Images/Single-Ticker.png -- 5.03kb -> 4.84kb (3.79%)
+
+commit b313073ec2ea499a8c54486287a1a3b08e683aad
+Author: AYIDouble <alpaypython@gmail.com>
+Date:   Wed Jun 12 20:44:02 2019 +0200
+
+    ➕ Add HTML
+
+commit 0f8cc3639470ed7c27f0e32d6d63eebd1c309f1b
+Merge: c624af4 b3aee79
+Author: AYIDouble <alpaypython@gmail.com>
+Date:   Wed Jun 12 20:43:08 2019 +0200
+
+    Merge branch 'master' of https://github.com/AYIDouble/HTML-TradingView-Crypto-Currencies-Snippets
+
+commit c624af4b5f1e8eef6b312e0cbdd7ac0664758643
+Author: AYIDouble <alpaypython@gmail.com>
+Date:   Wed Jun 12 20:42:58 2019 +0200
+
+C:\Users\Shubhadip\Desktop\crypto>git log -3
+commit 18ccd989f99e856ce7f4ff4953d94c46cb26497c (HEAD -> master, origin/master, origin/HEAD)
+Author: Alpay Yildirim <alpaypython@gmail.com>
+Date:   Thu Jul 20 10:28:26 2023 +0200
+
+    ➕ Add Bancor (BNT)
+
+commit 7360276883056b650be3b5fb77c45f9110e1f590
+Author: AYIDouble <alpay.yildirim@stud.bbbaden.ch>
+Date:   Thu Jul 20 10:24:01 2023 +0200
+
+    ➕ Add Bancor (BNT)
+
+commit 0e183dbfc177cedd69ceca47b7b4f6c812c4ca0c
+Author: AYIDouble <alpay.yildirim@stud.bbbaden.ch>
+Date:   Thu Jul 20 10:15:06 2023 +0200
+
+    ➕ Add Bancor (BNT)
+
+C:\Users\Shubhadip\Desktop\crypto> git diff
+diff --git a/README.md b/README.md
+index b2b2abc..8ce813c 100644
+--- a/README.md
++++ b/README.md
+@@ -6,6 +6,10 @@
+ ![Crypto Currency Chart Cryptocurrencies Candle Candlestick with indicators TradingView API RSI Stoch](Images/Chart.png)
+
+ ```
++
++//Shubhadip Paul now compleately div dive into full stack development
++
++
+ <div class="tradingview-widget-container">
+   <div id="tradingview_74048"></div>
+   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BITFINEX-IOTUSD/" rel="noopener" target="_blank"><span class="blue-text">IOTUSD Chart</span></a> by TradingView</div>
+
+C:\Users\Shubhadip\Desktop\crypto>git log -3
+commit 18ccd989f99e856ce7f4ff4953d94c46cb26497c (HEAD -> master, origin/master, origin/HEAD)
+Author: Alpay Yildirim <alpaypython@gmail.com>
+Date:   Thu Jul 20 10:28:26 2023 +0200
+
+    ➕ Add Bancor (BNT)
+
+commit 7360276883056b650be3b5fb77c45f9110e1f590
+Author: AYIDouble <alpay.yildirim@stud.bbbaden.ch>
+Date:   Thu Jul 20 10:24:01 2023 +0200
+
+    ➕ Add Bancor (BNT)
+
+commit 0e183dbfc177cedd69ceca47b7b4f6c812c4ca0c
+Author: AYIDouble <alpay.yildirim@stud.bbbaden.ch>
+Date:   Thu Jul 20 10:15:06 2023 +0200
+
+    ➕ Add Bancor (BNT)
+
+C:\Users\Shubhadip\Desktop\crypto>git log --oneline
+18ccd98 (HEAD -> master, origin/master, origin/HEAD) ➕ Add Bancor (BNT)
+7360276 ➕ Add Bancor (BNT)
+0e183db ➕ Add Bancor (BNT)
+f9fbaf6 🔁 Update README
+91230cb 🔁 Edit HTML
+c4e5f4e 🔁 Update README
+d594baf Merge pull request #7 from AYIDouble/imgbot
+b0b4278 [ImgBot] Optimize images
+b313073 ➕ Add HTML
+0f8cc36 Merge branch 'master' of https://github.com/AYIDouble/HTML-TradingView-Crypto-Currencies-Snippets
+c624af4 ➕ Add Image 🖼
+b3aee79 🔁 Update README
+14c6826 Merge pull request #6 from AYIDouble/imgbot
+34bf6f3 ➕ Add HTML
+f7e7b48 [ImgBot] Optimize images
+d4d60e5 ➕ Add Image 🖼
+6bf1b4e Merge branch 'master' of https://github.com/AYIDouble/HTML-TradingView-Crypto-Currencies-Snippets
+6885c4e 🔁 Rename
+be81677 🔁 Update README
+52ea739 🔁 Update README
+2a21581 🔁 Update README
+adaceb3 Merge pull request #5 from AYIDouble/imgbot
+ac9452d [ImgBot] Optimize images
+09f47d3 Merge branch 'master' of https://github.com/AYIDouble/HTML-TradingView-Crypto-Currencies-Snippets
+04b38f0 ➕ Add Image 🖼
+a11791b ➕ Add HTML
+2f0eb1d Merge pull request #4 from AYIDouble/imgbot
+42b8847 🔁 Update README
+2bb051b [ImgBot] Optimize images
+4285e93 Merge branch 'master' of https://github.com/AYIDouble/HTML-TradingView-Crypto-Currencies-Snippets
+846e276 ➕ Add Image 🖼
+c71bf31 ➕ Add HTML
+196c650 🔁 Update README
+
+C:\Users\Shubhadip\Desktop\crypto>git log --stat
+commit 18ccd989f99e856ce7f4ff4953d94c46cb26497c (HEAD -> master, origin/master, origin/HEAD)
+Author: Alpay Yildirim <alpaypython@gmail.com>
+Date:   Thu Jul 20 10:28:26 2023 +0200
+
+    ➕ Add Bancor (BNT)
+
+ README.md | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+commit 7360276883056b650be3b5fb77c45f9110e1f590
+Author: AYIDouble <alpay.yildirim@stud.bbbaden.ch>
+Date:   Thu Jul 20 10:24:01 2023 +0200
+
+    ➕ Add Bancor (BNT)
+
+ Symbol-Info.html | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit 0e183dbfc177cedd69ceca47b7b4f6c812c4ca0c
+Author: AYIDouble <alpay.yildirim@stud.bbbaden.ch>
+Date:   Thu Jul 20 10:15:06 2023 +0200
+
+    ➕ Add Bancor (BNT)
+
+ Images/Symbol-Info.png | Bin 0 -> 20580 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f9fbaf62224c97a25a668eb85d511c80f955c07d
+Author: Alpay Yildirim <alpaypython@gmail.com>
+Date:   Thu May 5 13:01:27 2022 +0200
+
+    🔁 Update README
+
+ README.md | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit 91230cb58f057611c70465639dba7740a5b129b8
+Author: AYIDouble <alpay.yildirim@stud.bbbaden.ch>
+Date:   Thu May 5 12:58:43 2022 +0200
+
+    🔁 Edit HTML
+
+C:\Users\Shubhadip\Desktop\crypto>git show f9fbaf62224c97a25a668eb85d511c80f955c07d
+commit f9fbaf62224c97a25a668eb85d511c80f955c07d
+Author: Alpay Yildirim <alpaypython@gmail.com>
+Date:   Thu May 5 13:01:27 2022 +0200
+
+    🔁 Update README
+
+diff --git a/README.md b/README.md
+index 8d1096f..e7903a7 100644
+--- a/README.md
++++ b/README.md
+@@ -14,7 +14,7 @@
+   new TradingView.widget(
+   {
+   "autosize": true,
+-  "symbol": "BITFINEX:IOTUSD",
++  "symbol": "BINANCE:IOTAUSD",
+   "interval": "D",
+   "timezone": "Europe/Zurich",
+   "theme": "Dark",
+@@ -56,7 +56,7 @@
+     },
+     {
+       "description": "",
+-      "proName": "BITFINEX:IOTUSD"
++      "proName": "BINANCE:IOTAUSD"
+     }
+   ],
+   "colorTheme": "dark",
+@@ -88,7 +88,7 @@
+     },
+     {
+       "description": "",
+-      "proName": "BITFINEX:IOTUSD"
++      "proName": "BINANCE:IOTAUSD"
+     }
+   ],
+   "colorTheme": "dark",
+@@ -110,7 +110,7 @@
+   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BITFINEX-IOTUSD/" rel="noopener" target="_blank"><span class="blue-text">IOTUSD Rates</span></a> by TradingView</div>
+
+C:\Users\Shubhadip\Desktop\crypto>git show
+commit 18ccd989f99e856ce7f4ff4953d94c46cb26497c (HEAD -> master, origin/master, origin/HEAD)
+Author: Alpay Yildirim <alpaypython@gmail.com>
+Date:   Thu Jul 20 10:28:26 2023 +0200
+
+    ➕ Add Bancor (BNT)
+
+diff --git a/README.md b/README.md
+index e7903a7..b2b2abc 100644
+--- a/README.md
++++ b/README.md
+@@ -209,3 +209,23 @@
+   </script>
+ </div>
+ ```
++
++## [💲 Symbol Info 💲](https://ayidouble.github.io/HTML-Crypto-Currency-Chart-Snippets/Symbol-Info)
++
++![Crypto Currency Symbol Info Cryptocurrencies Bancor BNT TradingView API](Images/Symbol-Info.png)
++
++```
++<div class="tradingview-widget-container">
++  <div class="tradingview-widget-container__widget"></div>
++  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
++  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
++  {
++  "symbol": "BINANCE:BNTUSD",
++  "width": "100%",
++  "locale": "en",
++  "colorTheme": "dark",
++  "isTransparent": false
++}
++  </script>
++</div>
+
+C:\Users\Shubhadip\Desktop\crypto>
+====================================================================================================================================================================
+
